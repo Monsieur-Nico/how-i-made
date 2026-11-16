@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Small projects built start to finish, one per episode of the How I made… series by @nicoscript." />
+  <title>How I made… | nicoscript</title>
+  <link rel="icon" href="./logo-on-dark.png" />
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0a0e13; --card: #111821; --ink: #f4f6fb; --muted: #9aa4b2; --line: #1f2a36;
+      --accent-text: #00fece; --glow: rgba(0, 254, 206, 0.07); --focus: #00fece;
+      --heading: "Segoe UI Semibold", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      --body: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-family: var(--body);
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg: #fafaf8; --card: #ffffff; --ink: #14161a; --muted: #545b66; --line: #e3e6ea;
+        --accent-text: #00705c; --glow: rgba(0, 254, 206, 0.12); --focus: #00705c; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; color: var(--ink); line-height: 1.45;
+      background: radial-gradient(60rem 40rem at 100% 0%, var(--glow), transparent 60%),
+                  radial-gradient(50rem 40rem at 0% 100%, var(--glow), transparent 60%), var(--bg); }
+    main { max-width: 40rem; margin: 0 auto; padding: 32px 16px 48px; display: grid; gap: 20px; }
+    .brand-row { display: flex; justify-content: space-between; align-items: center; }
+    .kicker { margin: 0; color: var(--accent-text); font-family: var(--heading); font-size: .8rem; font-weight: 700; letter-spacing: .22em; text-transform: uppercase; }
+    a { color: inherit; }
+    .handle { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); text-decoration: none; font-size: .9rem; }
+    .handle:hover { color: var(--ink); }
+    h1 { margin: 8px 0 0; font-family: var(--heading); font-weight: 600; font-size: clamp(2.2rem, 9vw, 3.2rem); line-height: 1.02; letter-spacing: -.03em; }
+    .lede { margin: 0; color: var(--muted); font-size: 1.05rem; }
+    ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+    .ep { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 18px; display: grid; gap: 6px; }
+    .num { color: var(--accent-text); font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: .85rem; letter-spacing: .1em; }
+    .ep h2 { margin: 0; font-family: var(--heading); font-weight: 600; font-size: 1.35rem; letter-spacing: -.01em; }
+    .ep p { margin: 0; color: var(--muted); }
+    .links { display: flex; gap: 16px; margin-top: 6px; font-weight: 650; }
+    .links a { color: var(--accent-text); text-underline-offset: 3px; }
+    :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+    footer { color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand-row">
+        <p class="kicker">Build series</p>
+        <a class="handle" href="https://www.instagram.com/nicoscript/" rel="noopener">
+          <picture>
+            <source srcset="./logo-on-light.png" media="(prefers-color-scheme: light)" />
+            <img src="./logo-on-dark.png" alt="" width="22" height="22" />
+          </picture>
+          @nicoscript
+        </a>
+      </div>
+      <h1>How I made…</h1>
+    </header>
+    <p class="lede">Small projects, built start to finish. Watch the short on Instagram, TikTok or YouTube, then try the real thing here and read every line of its code.</p>
+
+    <ol>
+      <li class="ep">
+        <span class="num">EP 01</span>
+        <h2>Is it really 60% off?</h2>
+        <p>Stack discounts the way a checkout does and see what you really save.</p>
+        <div class="links">
+          <a href="./01-discount-calculator/">Try it</a>
+          <a href="https://github.com/Monsieur-Nico/how-i-made/tree/main/episodes/01-discount-calculator">Code</a>
+        </div>
+      </li>
+    </ol>
+
+    <footer>All code is MIT licensed on <a href="https://github.com/Monsieur-Nico/how-i-made">GitHub</a>.</footer>
+  </main>
+</body>
+</html>
