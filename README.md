@@ -34,7 +34,7 @@ Every episode of **How I made…** is one small, finished project. The short vid
       <p>
         <a href="https://monsieur-nico.github.io/how-i-made/01-discount-calculator/"><b>Try it live</b></a>
         &nbsp;·&nbsp; <a href="episodes/01-discount-calculator">Code &amp; how it works</a>
-        &nbsp;·&nbsp; Video: coming soon
+        &nbsp;·&nbsp; <a href="https://www.instagram.com/reel/DfzBziLBGHR/">Watch on Instagram</a>
       </p>
       <sub>TypeScript · Vite · Vitest · Playwright</sub>
     </td>
