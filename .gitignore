@@ -1,0 +1,19 @@
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+*.log
+.env
+.env.*
+!.env.example
+
+# editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# video work stays out of the repo
+captures/
+*.mp4
