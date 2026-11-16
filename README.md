@@ -8,7 +8,7 @@ Follow along on Instagram at [@nicoscript](https://www.instagram.com/nicoscript/
 
 | # | Project | What it does | Video |
 |---|---|---|---|
-| 01 | Fake-discount detector | A browser extension that remembers prices as you browse and tells you when a "deal" is the old price wearing a sale sticker | coming soon |
+| 01 | [Is it really 60% off?](episodes/01-discount-calculator) | A calculator that stacks discounts the way a checkout does and shows what you really save | coming soon |
 
 ## Running an episode
 
