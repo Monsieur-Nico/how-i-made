@@ -2,6 +2,7 @@ name: Episode idea
 description: Suggest a small project for a future episode of How I made…
 title: "Episode idea: "
 labels: ["episode idea"]
+assignees: ["Monsieur-Nico"]
 body:
   - type: markdown
     attributes:
