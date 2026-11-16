@@ -1,0 +1,30 @@
+name: Episode idea
+description: Suggest a small project for a future episode of How I made…
+title: "Episode idea: "
+labels: ["episode idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! The best episodes solve one real, annoying problem and fit in a page you can open on your phone.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem?
+      description: What annoys you, and when does it happen?
+      placeholder: Every time I split a restaurant bill with friends, someone ends up paying the wrong amount because…
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would the project do?
+      description: A sentence or two is plenty.
+    validations:
+      required: true
+  - type: input
+    id: handle
+    attributes:
+      label: Your Instagram or TikTok handle (optional)
+      description: So you can be credited if it becomes an episode.
+      placeholder: "@yourhandle"
