@@ -4,7 +4,7 @@
 
 The second discount comes off the price that's left after the first one, not off the original price. This page stacks discounts the way a checkout does and shows the real price, the real percentage off, and every step in between.
 
-**[Try it live](https://monsieur-nico.github.io/how-i-made/01-discount-calculator/)**
+**[Try it live](https://monsieur-nico.github.io/how-i-made/01-discount-calculator/)** · [Watch the video on Instagram](https://www.instagram.com/reel/DfzBziLBGHR/)
 
 <img src="screenshot.png" alt="The calculator on a phone: $100 with 40% then 20% off. You pay $48.00, that's 52% off, not 60%. Two bars compare 'sounds like 60%' with 'really 52%'." width="320">
 
